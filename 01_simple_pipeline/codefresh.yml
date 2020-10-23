@@ -15,4 +15,5 @@ steps:
     commands:
       - echo "My Python version is"
       - python --version
+      - pip install --upgrade setuptools  
       - pip install .   
